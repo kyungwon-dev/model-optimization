@@ -7,7 +7,6 @@ import argparse
 import json
 import os
 import time
-from datetime import datetime
 
 import torch
 from torch.utils.data import DataLoader
@@ -15,9 +14,8 @@ from torchvision.datasets import ImageFolder
 from torchvision.transforms import Resize
 from tqdm import tqdm
 
-from src.augmentation.policies import simple_augment_test
 from src.model import Model
-from src.utils.common import read_yaml
+from src import read_yaml
 
 if torch.__version__ >= "1.8.1":
     from torch import profiler
