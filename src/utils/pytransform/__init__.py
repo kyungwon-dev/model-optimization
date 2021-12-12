@@ -345,7 +345,7 @@ def _load_library(path=None, is_runtime=0, platid=None, suffix="", advanced=0):
     # if plat == 'linux':
     #     m.set_option(-1, find_library('c').encode())
 
-    if not os.path.abspath("") == os.path.abspath(path):
+    if not os.path.abspath(".") == os.path.abspath(path):
         m.set_option(1, path.encode() if sys.version_info[0] == 3 else path)
 
     # Required from Python3.6

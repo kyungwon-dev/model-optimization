@@ -1,5 +1,3 @@
-# model-optimization-level3-nlp-17
-
 # boostcamp_pstage10
 
 # Environment
@@ -21,4 +19,3 @@ python inference.py --model_config configs/model/mobilenetv3.yaml --weight exp/2
 
 # Reference
 Our basic structure is based on [Kindle](https://github.com/JeiKeiLim/kindle)(by [JeiKeiLim](https://github.com/JeiKeiLim))
-
